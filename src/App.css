@@ -1,0 +1,233 @@
+/* Full Page Background */
+.section-bg-color {
+  background-color: #0b1d26;
+}
+
+.full-page-bg {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  color: #fff;
+}
+
+/* Banner Overlay */
+.banner-overlay {
+  background: transparent;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+/* Navbar */
+.custom-navbar {
+  padding: 10px 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent; /* stays transparent on top of banner */
+  border: none;
+}
+
+.custom-navbar .nav-link,
+.custom-navbar .navbar-brand {
+  color: #fff !important;
+  position: relative;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.center-links {
+  display: flex;
+  gap: 30px;
+}
+
+/* Navbar link hover underline effect */
+.custom-navbar .nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 0;
+  height: 2px;
+  background-color: #fff;
+  transition: width 0.3s ease;
+}
+
+.custom-navbar .nav-link:hover::after {
+  width: 100%;
+}
+
+/* Banner Heading Image */
+.banner-content {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 5;
+}
+
+.banner-text-img {
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+}
+
+/* Social Media Image */
+.social-bar-image {
+  position: absolute;
+  top: 40%;
+  left: 20px;
+  width: 27px;
+  height: 173px;
+  z-index: 10;
+}
+
+.social-bar-image .social-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Slider Image */
+.slider-image-container {
+  position: absolute;
+  top: 13%;
+  right: 20px;
+  width: 100px;
+  height: 300px;
+  z-index: 10;
+}
+
+.slider-image-container .slider-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Image Section (Stacked Hikers) */
+.image-section {
+  min-height: 100vh; /* take full viewport height */
+  display: flex; /* enable flexbox */
+  justify-content: center; /* center horizontally */
+  align-items: center; /* center vertically */
+  background: #0b1d26; /* match footer background */
+  padding: 40px 10px;
+  text-align: center;
+}
+
+.image-stack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+.image-stack img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+
+/* Footer */
+.footer-image {
+  display: flex;
+  justify-content: center;
+  background: #0b1d26;
+  padding: 20px;
+}
+
+.footer-image img {
+  width: 80%;
+  max-width: 900px;
+  height: auto;
+  margin: 0 10%;
+  display: block;
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 1200px) {
+  .banner-text-img {
+    max-width: 500px;
+  }
+  .social-bar-image {
+    width: 25px;
+    height: 150px;
+    top: 15%;
+  }
+  .slider-image-container {
+    width: 80px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 992px) {
+  .banner-text-img {
+    max-width: 400px;
+  }
+  .social-bar-image {
+    width: 20px;
+    height: 130px;
+    top: 12%;
+  }
+  .slider-image-container {
+    width: 70px;
+    height: 220px;
+  }
+  .image-stack img {
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner-text-img {
+    max-width: 350px;
+  }
+  .social-bar-image {
+    width: 18px;
+    height: 110px;
+    top: 10%;
+  }
+  .slider-image-container {
+    width: 60px;
+    height: 200px;
+  }
+  .image-stack img {
+    max-width: 400px;
+  }
+  .footer-image img {
+    width: 90%;
+  }
+  .center-links {
+    gap: 15px;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .banner-text-img {
+    max-width: 280px;
+  }
+  .social-bar-image {
+    width: 15px;
+    height: 90px;
+    top: 8%;
+  }
+  .slider-image-container {
+    width: 50px;
+    height: 160px;
+  }
+  .image-stack img {
+    max-width: 300px;
+  }
+}
