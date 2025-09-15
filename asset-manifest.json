@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/bilal-app/static/css/main.7f4a2ee1.css",
+    "main.js": "/bilal-app/static/js/main.c293f04a.js",
+    "static/js/453.d8456ffc.chunk.js": "/bilal-app/static/js/453.d8456ffc.chunk.js",
+    "static/media/MainPicture.png": "/bilal-app/static/media/MainPicture.bfab1cd0807812eb878c.png",
+    "static/media/Picture.svg": "/bilal-app/static/media/Picture.fe4a84378c4fad10ec5cca2a27654db3.svg",
+    "static/media/Picture2.svg": "/bilal-app/static/media/Picture2.9fdad32f60b5b436aa310ed33723c14a.svg",
+    "static/media/Picture3.svg": "/bilal-app/static/media/Picture3.40035ea646a4847d41454c6a8f6762dd.svg",
+    "static/media/Footer.svg": "/bilal-app/static/media/Footer.63cd7eca2b93f258f2e77063cbf79ced.svg",
+    "static/media/heading.svg": "/bilal-app/static/media/heading.66f2df1caf454e691f8b9ecc470210ba.svg",
+    "static/media/slider.svg": "/bilal-app/static/media/slider.e208600e17c66e3d60df2d6bcf1f4e8e.svg",
+    "static/media/Social.svg": "/bilal-app/static/media/Social.a605223b77cf2196e6101f1e22701499.svg",
+    "index.html": "/bilal-app/index.html",
+    "main.7f4a2ee1.css.map": "/bilal-app/static/css/main.7f4a2ee1.css.map",
+    "main.c293f04a.js.map": "/bilal-app/static/js/main.c293f04a.js.map",
+    "453.d8456ffc.chunk.js.map": "/bilal-app/static/js/453.d8456ffc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7f4a2ee1.css",
+    "static/js/main.c293f04a.js"
+  ]
+}
