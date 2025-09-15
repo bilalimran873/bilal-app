@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/bilal-app/static/css/main.7f4a2ee1.css",
-    "main.js": "/bilal-app/static/js/main.27ce8f7c.js",
+    "main.js": "/bilal-app/static/js/main.14f308ab.js",
     "static/js/453.d8456ffc.chunk.js": "/bilal-app/static/js/453.d8456ffc.chunk.js",
     "static/media/MainPicture.png": "/bilal-app/static/media/MainPicture.bfab1cd0807812eb878c.png",
     "static/media/Picture.svg": "/bilal-app/static/media/Picture.fe4a84378c4fad10ec5cca2a27654db3.svg",
@@ -13,11 +13,11 @@
     "static/media/Social.svg": "/bilal-app/static/media/Social.a605223b77cf2196e6101f1e22701499.svg",
     "index.html": "/bilal-app/index.html",
     "main.7f4a2ee1.css.map": "/bilal-app/static/css/main.7f4a2ee1.css.map",
-    "main.27ce8f7c.js.map": "/bilal-app/static/js/main.27ce8f7c.js.map",
+    "main.14f308ab.js.map": "/bilal-app/static/js/main.14f308ab.js.map",
     "453.d8456ffc.chunk.js.map": "/bilal-app/static/js/453.d8456ffc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7f4a2ee1.css",
-    "static/js/main.27ce8f7c.js"
+    "static/js/main.14f308ab.js"
   ]
 }
