@@ -5,10 +5,11 @@ import Desktop from "./pages/Desktop";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/bilal-app">
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route index element={<Home />} />
         <Route path="/desktop" element={<Desktop />} />
+        <Route path="*" element={<Home />} />
       </Routes>
     </BrowserRouter>
   );
